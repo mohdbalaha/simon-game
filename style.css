@@ -1,0 +1,98 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+    color: #333;
+    min-width: 450px;
+}
+
+.color {
+    width: 90px;
+    padding: 25px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    background-color: gray;
+}
+
+#red {
+    background-color: #A30A1C;
+}
+
+#blue {
+    background-color: #054B8A;
+}
+
+#green {
+    background-color: #00A756;
+}
+
+#yellow {
+    background-color: #CDA636;
+}
+
+#screen {
+    width: 50px;
+    font-size: 36px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 7px;
+    color: red;
+    background-color: #34050C;
+    margin-bottom: 10px;
+}
+
+#control {
+    display: inline-block;
+    background-color: #ECE7EE;
+    padding: 5px;
+    margin-top: 100px;
+    border: 10px #333 solid;
+}
+
+#control p {
+    font-size: 36px;
+}
+
+.outer {
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    border: 5px black solid;
+    display: inline-block;
+}
+
+.inner {
+    width: 30px;
+    height: 20px;
+    background-color: #2894D9;
+    cursor: pointer;
+}
+
+label {
+    font-size: 22px;
+}
+
+label:last-of-type {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+#start {
+    border: 3px #333 solid;
+    background-color: orange;
+}
+
+#strict {
+    border: 3px #333 solid;
+    background-color: yellow;
+}
